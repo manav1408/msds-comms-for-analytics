@@ -16,9 +16,9 @@
   - Missing out on potential good customers
 
 - Foreign Key
-  - Potential data integrity problems: The obvious problem with the lack of foreign keys is that a database can't enforce referential integrity and if it                                          wasn't taken care of properly at the higher level then this might lead to inconsistent data
+  - Potential data integrity problems
   - Difficulty with querying and reporting from the database for people who don't have knowledge of the database
-  - Full Table Reload: Some databases, like data warehouses, staging, or interfacing databases, often require reloading data from external sources. This                          causes the data to be inconsistent at the time of reloading. That could be bypassed by disabling keys for the time of the reload.                          However, this introduces additional logic and complexity and another point of failure.
+  - Full Table Reload: Some databases, like data warehouses, staging, or interfacing databases, often require reloading data from external sources. This                          causes the data to be inconsistent at the time of reloading.
 
 # Can and Do Relational Databases exist without keys - Real World Scenarios
 
