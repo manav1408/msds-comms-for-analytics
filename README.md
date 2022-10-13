@@ -37,6 +37,8 @@ But tables without applying a foreign key constraint do exist.
 
 # Are there databases that actually don't need keys?
 
+Yes , such database technologies exist that donot mandate usage of certain types of keys and are popularly known as non relational databases/No SQL databases.
+
 By definition , no SQL databases move away from the traditional structured schemas and have flexibility in terms of how information is organized in the storage. They also do not employ the concept of foreign keys and referential integrity.
 One such no SQL database is a document based data base model ,where data is stored in terms of key value pairs.
 In this case , a key returns a JSON based document in which a larger entity and it’s associated entities are modeled as sub sections in a JSON structure. This helps to maintain relation between different entity objects with a single structure and eliminates the need to separately maintain the relations in a defined schema or usage of foreign keys.
